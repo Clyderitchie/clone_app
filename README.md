@@ -11,9 +11,11 @@ Layout TODO:
 -   Links (Home, Profile, Post, Setting) turned to routes that take you to outline of that page (Include nav bar, and side bar with on those routes)
 
     Main Feed (Where posts will go)
+-   Have posts start at top of container
 -   Get width down
 -   Render two to three fake posts to get rendering down (While go in to make dynamic after seeded)
 
     Right Side of page Side bar (Highlights)
+-   Top of container start for posts
 -   Position to stick to side of page
 -   Render two to three fake posts to get sizing and layout down (Same as post will make dynamic later)

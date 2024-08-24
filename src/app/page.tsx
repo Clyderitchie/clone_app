@@ -8,13 +8,13 @@ export default function Home() {
     <main>
       <NavBar />
       <div className='flex flex-row justify-around '>
-        <div className='min-h-96 max-h-96 max-w-48 mt-5 ml-5 border flex flex-col items-center justify-center'>
+        <div className='min-h-96 max-h-96 max-w-48 mt-5 ml-5 border flex flex-col items-center justify-center p-2'>
           <SideBar />
         </div>
-        <div className='min-h-screen max-h-screen min-w-screen-md max-w-screen-lg mt-5 ml-5 border flex flex-col items-center justify-center'>
+        <div className='min-h-screen max-h-screen min-w-screen-md max-w-screen-lg mt-5 ml-5 border flex flex-col items-center justify-center p-2'>
           <PostLayout />
         </div>
-        <div className='min-h-screen max-h-screen min-w-48 max-w-56 mt-5 ml-5 border flex flex-col items-center justify-center'>
+        <div className='min-h-screen max-h-screen min-w-48 max-w-56 mt-5 ml-5 border flex flex-col items-center justify-center p-2'>
           <Highlights/>
         </div>
       </div>
