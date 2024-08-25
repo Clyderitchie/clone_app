@@ -1,9 +1,10 @@
 export type Users = {
-    id: String,
-    username: String,
-    email: String,
-    password: String,
-};
+    id: string,       
+    username: string, 
+    email: string,    
+    password: string, 
+}
+
 
 export type Posts = {
     id: Users['id'],
